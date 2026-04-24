@@ -1,0 +1,10 @@
+import random 
+import string 
+pass_len = 6 
+password = string.ascii_letters + string.digits 
+
+pas = " "
+for i in range (pass_len):
+    pas += random.choice(password)
+
+print("Your Random Password is :- ", pas)
