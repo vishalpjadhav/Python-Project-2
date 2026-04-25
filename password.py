@@ -1,7 +1,7 @@
 import random 
 import string 
 pass_len = 6 
-password = string.ascii_letters + string.digits 
+password = string.ascii_letters + string.digits + ("_@#")
 
 pas = " "
 for i in range (pass_len):
