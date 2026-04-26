@@ -1,6 +1,6 @@
 import random 
 import string 
-pass_len = 6 
+pass_len = 8
 password = string.ascii_letters + string.digits + ("_@#")
 
 pas = " "
