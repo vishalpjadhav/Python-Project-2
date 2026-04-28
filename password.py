@@ -7,4 +7,5 @@ pas = " "
 for i in range (pass_len):
     pas += random.choice(password)
 
-print("Your Random Password is :- ", pas)
+print("Your Strong Password is :- ", pas)
+
